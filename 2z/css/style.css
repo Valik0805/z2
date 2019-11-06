@@ -1,0 +1,52 @@
+*, 
+*:before,
+*:after{
+	box-sizing:border-box;
+}
+h1{
+	text-transform: uppercase;
+	margin-left: 10%;
+}
+h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+	margin: 0;
+}
+body{
+	margin: 0;
+	text-transform: uppercase;
+}
+.container{
+	width: 80%;
+	max-width: 80%;
+	margin:0 auto;
+}
+.remblock{
+	margin-bottom: 5rem;
+}
+.image_rem{
+	float: right;
+	width: 8vw;
+	height: 8vw;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+.rem_text{
+	font-size: 1rem;
+	line-height: 1;
+}
+.rem08_text{
+	font-size: .8rem;
+}
+
+.image_em{
+	float: left;
+	width: 25vw;
+	height: 25vw;
+	margin-right: 1em;
+}
+.em_text{
+	font-size: 1em;
+}
+.em08_text{
+	font-size: .8rem;
+}
